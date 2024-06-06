@@ -1,0 +1,75 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "age": 30,
+      "position": "Software Engineer",
+      "address": {
+        "street": "123 Main St",
+        "city": "San Francisco",
+        "state": "CA",
+        "postalCode": "94105"
+      },
+      "skills": ["JavaScript", "React", "Node.js"],
+      "projects": [
+        {
+          "name": "Project A",
+          "description": "A web application for managing tasks",
+          "duration": {
+            "start": "2023-01-01",
+            "end": "2023-06-30"
+          },
+          "technologies": ["React", "Node.js", "MongoDB"]
+        },
+        {
+          "name": "Project B",
+          "description": "A mobile app for social networking",
+          "duration": {
+            "start": "2023-07-01",
+            "end": "2023-12-31"
+          },
+          "technologies": ["React Native", "Firebase"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "age": 25,
+      "position": "Product Manager",
+      "address": {
+        "street": "456 Market St",
+        "city": "San Francisco",
+        "state": "CA",
+        "postalCode": "94104"
+      },
+      "skills": ["Project Management", "Agile", "Scrum"],
+      "projects": [
+        {
+          "name": "Project C",
+          "description": "An e-commerce platform",
+          "duration": {
+            "start": "2022-03-01",
+            "end": "2022-09-30"
+          },
+          "technologies": ["Magento", "PHP", "MySQL"]
+        }
+      ]
+    }
+  ],
+  "departments": [
+    {
+      "id": 1,
+      "name": "Engineering",
+      "head": "Alice Johnson",
+      "employees": [1]
+    },
+    {
+      "id": 2,
+      "name": "Product",
+      "head": "Bob Brown",
+      "employees": [2]
+    }
+  ]
+}
